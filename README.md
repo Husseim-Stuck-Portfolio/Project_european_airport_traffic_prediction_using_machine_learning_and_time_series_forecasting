@@ -1,35 +1,26 @@
-# Project_european_airport_traffic_prediction_using_machine_learning_and_time_series_forecasting
-Predict daily IFR flight volumes and congestion levels at European airports (e.g., Munich EDDM) with supervised ML models like XGBoost, Random Forest, and time series techniques (ARIMA, Prophet). Engineered features: seasonality, lags, holidays, rolling averages
+Columns and explanation 
 
-Key Sections:
+This dataset is designed to analyze relationships between teenage lifestyle habits—specifically social media use—and mental health indicators.
 
-Project Overview - Clear objective of predicting flight volumes
-Dataset Documentation - Complete details with Kaggle source link, including:
+### Demographic and Usage Columns
+*   **age**: The age of the participant (typically ranging from 13 to 19 in this dataset).
+*   **gender**: The gender identity of the participant (e.g., male, female).
+*   **daily_social_media_hours**: The average number of hours spent on social media platforms per day.
+*   **platform_usage**: The primary social media platform used (categories: Instagram, TikTok, or Both).
 
-688,099 records from 2016-2022
-14 features with descriptions
-332+ European airports across multiple countries
+### Lifestyle and Academic Columns
+*   **sleep_hours**: The average number of hours of sleep the participant gets per night.
+*   **screen_time_before_sleep**: The average time (in hours) spent on devices immediately before trying to sleep.
+*   **academic_performance**: A numeric score representing grades or academic achievement (typically on a scale similar to GPA).
+*   **physical_activity**: The average daily time or level of physical activity in hours.
+*   **social_interaction_level**: A qualitative assessment of how often or how well the participant interacts socially (categories: low, medium, high).
 
-
-Prediction Task - Defined as supervised regression (predicting daily total flights)
-Feature Engineering Strategy - Ready-to-implement features:
-
-Temporal (day of week, holidays, seasonality)
-Lagged (previous day/week/month traffic)
-Rolling statistics (7-day, 30-day averages)
-Airport-specific features
-
-
-Project Structure - Organized folders for notebooks, source code, data, and models
-Machine Learning Approach - Multiple model types:
-
-Baseline: Linear Regression, Decision Trees
-Ensemble: Random Forest, XGBoost, LightGBM
-Tuning: Grid Search, Cross-Validation
+### Mental Health and Outcome Columns
+*   **stress_level**: A self-reported or assessed score representing perceived stress (likely on a scale from 1 to 10).
+*   **anxiety_level**: A score representing the level of anxiety reported (likely on a scale from 1 to 10).
+*   **addiction_level**: A score representing the level of perceived social media dependency (likely on a scale from 1 to 10).
+*   **depression_label**: A binary classification indicator (0 or 1) intended to flag the presence or absence of a clinical depression diagnosis or significant depressive symptoms, which acts as the target variable for predictive modeling.[1]
 
 
-Real-World Applications - Airport ops, ATC planning, airlines scheduling
-Challenges & Solutions - COVID-19 anomalies, seasonality, feature selection
-Future Improvements - Extensions like external data, LSTM, deployment API
-
+Source:
 https://www.kaggle.com/datasets/umerhaddii/european-flights-dataset/data
