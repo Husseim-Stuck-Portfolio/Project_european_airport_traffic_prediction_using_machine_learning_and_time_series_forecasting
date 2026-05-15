@@ -1,0 +1,12 @@
+Feature,Importance
+num__daily_social_media_hours,0.18722586891998327
+num__academic_performance,0.16901459885849443
+num__sleep_hours,0.16779212364029747
+num__physical_activity,0.1324403593718651
+num__screen_time_before_sleep,0.13134647040764333
+num__age,0.10550785772237095
+cat__gender_male,0.026432534216744328
+cat__platform_usage_TikTok,0.02348968254452902
+cat__social_interaction_level_medium,0.02158235303483637
+cat__platform_usage_Instagram,0.018832185812215976
+cat__social_interaction_level_low,0.01633596547101954
